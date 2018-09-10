@@ -8,3 +8,7 @@ print("feature001 commit")
 
 
 
+# COMMAND ----------
+
+#get latest from dev and adding new 
+print("feature 002")

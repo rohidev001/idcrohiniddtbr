@@ -1,13 +1,9 @@
 # Databricks notebook source
-#edited from github
 dbutils.widgets.text("storageaccountname", "","")
 dbutils.widgets.get("storageaccountname")
 storageaccountname = getArgument("storageaccountname")
 
-#added from github
-dbutils.widgets.text("storageaccountname1", "","")
-dbutils.widgets.get("storageaccountname1")
-storageaccountname1 = getArgument("storageaccountname1")
+#test 
 
 
 dbutils.widgets.text("sourcecontainername", "","")

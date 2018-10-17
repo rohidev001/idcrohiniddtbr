@@ -4,6 +4,12 @@ dbutils.widgets.text("storageaccountname", "","")
 dbutils.widgets.get("storageaccountname")
 storageaccountname = getArgument("storageaccountname")
 
+#added from github
+dbutils.widgets.text("storageaccountname1", "","")
+dbutils.widgets.get("storageaccountname1")
+storageaccountname1 = getArgument("storageaccountname1")
+
+
 dbutils.widgets.text("sourcecontainername", "","")
 dbutils.widgets.get("sourcecontainername")
 sourcecontainername = getArgument("sourcecontainername")
